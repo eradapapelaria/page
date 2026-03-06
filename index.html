@@ -1,13 +1,17 @@
 ```html
 <!doctype html>
 <html lang="pt-BR">
- <head>
+
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Era da Papelaria - Onde cada convite conta uma história única</title>
-  <meta name="description" content="Papelaria digital personalizada para casamentos, aniversários e eventos. Convites, Save the Date e muito mais.">
+  <meta name="description"
+    content="Papelaria digital personalizada para casamentos, aniversários e eventos. Convites, Save the Date e muito mais.">
   <script src="/_sdk/element_sdk.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&amp;family=Montserrat:wght@300;400;500;600;700&amp;family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&amp;family=Montserrat:wght@300;400;500;600;700&amp;family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap"
+    rel="stylesheet">
   <style>
     body {
       box-sizing: border-box;
@@ -26,7 +30,8 @@
     /* --- NOVOS ESTILOS PARA A SEÇÃO PROMOÇÃO (EDITORIAL) --- */
     .promo-editorial {
       padding: 120px 20px;
-      background: #fcfaff; /* Fundo suave conforme pedido */
+      background: #fcfaff;
+      /* Fundo suave conforme pedido */
       position: relative;
       overflow: hidden;
     }
@@ -64,7 +69,8 @@
     }
 
     .editorial-title {
-      font-family: 'Cormorant Garamond', serif; /* Fonte editorial */
+      font-family: 'Cormorant Garamond', serif;
+      /* Fonte editorial */
       font-size: 3.5rem;
       color: #5E527B;
       font-weight: 400;
@@ -86,7 +92,8 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
-      border-radius: 8px; /* Cantos levemente arredondados */
+      border-radius: 8px;
+      /* Cantos levemente arredondados */
       box-shadow: 0 10px 30px rgba(94, 82, 123, 0.05);
     }
 
@@ -137,7 +144,8 @@
     .new-price {
       font-family: 'Montserrat', sans-serif;
       font-size: 3.5rem;
-      color: #C582B9; /* Rosa conforme a imagem de referência */
+      color: #C582B9;
+      /* Rosa conforme a imagem de referência */
       font-weight: 700;
     }
 
@@ -155,7 +163,7 @@
     .promo-rules p {
       margin-bottom: 12px;
     }
-    
+
     .exclusivity-note {
       font-size: 0.9rem;
       margin-top: 20px;
@@ -165,12 +173,12 @@
     }
 
     .styles-header {
-        text-align: center;
-        margin-bottom: 30px;
-        color: #5E527B;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #5E527B;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
     }
 
     .styles-grid {
@@ -184,11 +192,12 @@
       background: #ffffff;
       padding: 25px 20px;
       border: 1px solid #dcdde6;
-      border-radius: 12px; /* Visual de card arredondado */
+      border-radius: 12px;
+      /* Visual de card arredondado */
       text-align: center;
       transition: all 0.3s ease;
       position: relative;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
     }
 
     .style-card:hover {
@@ -223,7 +232,8 @@
       color: #6d6d6d;
       line-height: 1.5;
       margin-bottom: 15px;
-      min-height: 42px; /* Para alinhar alturas */
+      min-height: 42px;
+      /* Para alinhar alturas */
     }
 
     .slots-badge {
@@ -233,9 +243,9 @@
       color: #0A0C23;
       font-weight: 600;
     }
-    
+
     .slots-badge strong {
-        color: #0A0C23;
+      color: #0A0C23;
     }
 
     .form-container {
@@ -244,7 +254,7 @@
       background: white;
       padding: 40px;
       border-radius: 20px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.05);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
       border: 1px solid #eee;
     }
 
@@ -415,11 +425,11 @@
         width: 100%;
         text-align: center;
       }
-      
+
       .editorial-title {
         font-size: 2.5rem;
       }
-      
+
       .new-price {
         font-size: 2.8rem;
       }
@@ -445,7 +455,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-image: 
+      background-image:
         radial-gradient(circle at 20% 30%, rgba(183, 191, 212, 0.1) 0%, transparent 50%),
         radial-gradient(circle at 80% 70%, rgba(197, 130, 185, 0.08) 0%, transparent 50%);
       pointer-events: none;
@@ -627,7 +637,7 @@
       letter-spacing: 1px;
     }
 
-    .portfolio-content > p {
+    .portfolio-content>p {
       font-family: 'Montserrat', sans-serif;
       color: #0A0C23;
       line-height: 1.6;
@@ -833,8 +843,15 @@
     }
 
     @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-5px); }
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-5px);
+      }
     }
 
     /* Footer */
@@ -885,6 +902,7 @@
         opacity: 0;
         transform: translateY(20px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -895,662 +913,965 @@
       animation: fadeIn 0.8s ease-in;
     }
   </style>
-  <style>@view-transition { navigation: auto; }</style>
+  <style>
+    @view-transition {
+      navigation: auto;
+    }
+  </style>
   <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
   <script src="https://cdn.tailwindcss.com" type="text/javascript"></script>
- </head>
- <body><!-- Navigation Menu -->
+</head>
+
+<body><!-- Navigation Menu -->
   <nav class="nav-menu">
-   <div class="nav-container"><a href="#" class="nav-logo">Era da Papelaria</a>
-    <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><span></span> <span></span> <span></span>
+    <div class="nav-container"><a href="#" class="nav-logo">Era da Papelaria</a>
+      <div class="mobile-menu-toggle" onclick="toggleMobileMenu()"><span></span> <span></span> <span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#valores">Valores</a></li>
+        <li><a href="#extras">Extras</a></li>
+        <li><a href="#faq">Dúvidas</a></li>
+        <li><a href="#contact" class="nav-cta">Fazer Pedido</a></li>
+      </ul>
     </div>
-    <ul class="nav-links">
-     <li><a href="#portfolio">Portfólio</a></li>
-     <li><a href="#valores">Valores</a></li>
-     <li><a href="#extras">Extras</a></li>
-     <li><a href="#faq">Dúvidas</a></li>
-     <li><a href="#contact" class="nav-cta">Fazer Pedido</a></li>
-    </ul>
-   </div>
   </nav><!-- Hero Section -->
   <section class="hero" style="padding-top: 140px;">
-   <div class="hero-content"><img src="https://era-dapapelaria.vercel.app/images/logo-final.png" alt="Era da Papelaria" style="max-width: 600px; width: 100%; height: auto; margin: 0 auto 30px; display: block;" onerror="this.style.display='none'; document.getElementById('hero-handwritten').style.display='block';">
-    <div class="handwritten" id="hero-handwritten" style="display: none;">
-     Era da Papelaria
+    <div class="hero-content"><img src="https://era-dapapelaria.vercel.app/images/logo-final.png" alt="Era da Papelaria"
+        style="max-width: 600px; width: 100%; height: auto; margin: 0 auto 30px; display: block;"
+        onerror="this.style.display='none'; document.getElementById('hero-handwritten').style.display='block';">
+      <div class="handwritten" id="hero-handwritten" style="display: none;">
+        Era da Papelaria
+      </div>
+      <h1 id="hero-title">Onde cada convite digital conta uma história única</h1>
+      <p id="hero-subtitle">Papelaria digital personalizada com alma. Entrega por e-mail ou WhatsApp, pronta para
+        impressão ou envio online.</p>
+      <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;"><a
+          href="#portfolio" class="btn-primary btn-portfolio" style="background-color: #C582B9;">Ver Portfólio</a> <a
+          href="#valores" class="btn-primary btn-valores" id="hero-button"
+          style="display: inline-flex; align-items: center; gap: 10px;"> <span>Ver Valores</span>
+          <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+          <svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg></a>
+      </div>
     </div>
-    <h1 id="hero-title">Onde cada convite digital conta uma história única</h1>
-    <p id="hero-subtitle">Papelaria digital personalizada com alma. Entrega por e-mail ou WhatsApp, pronta para impressão ou envio online.</p>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 30px;"><a href="#portfolio" class="btn-primary btn-portfolio" style="background-color: #C582B9;">Ver Portfólio</a> <a href="#valores" class="btn-primary btn-valores" id="hero-button" style="display: inline-flex; align-items: center; gap: 10px;"> <span>Ver Valores</span>
-      <svg width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7" />
-      </svg>
-      <svg width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-      </svg></a>
-    </div>
-   </div>
   </section><!-- About Section -->
   <section class="about">
-   <h2 class="section-title" id="about-title">Sobre a Era</h2>
-   <div class="about-content">
-    <p id="about-text">Somos um ateliê digital especializado em papelaria personalizada. Criamos convites únicos, save the dates, cardápios e toda papelaria digital para seus momentos especiais. Cada peça é pensada com carinho e desenvolvida em alta resolução, pronta para você compartilhar digitalmente ou imprimir onde preferir.</p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-top: 60px; text-align: center;">
-     <div>
-      <div style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-       <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <polyline points="12 6 12 12 16 14" />
-       </svg>
+    <h2 class="section-title" id="about-title">Sobre a Era</h2>
+    <div class="about-content">
+      <p id="about-text">Somos um ateliê digital especializado em papelaria personalizada. Criamos convites únicos, save
+        the dates, cardápios e toda papelaria digital para seus momentos especiais. Cada peça é pensada com carinho e
+        desenvolvida em alta resolução, pronta para você compartilhar digitalmente ou imprimir onde preferir.</p>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-top: 60px; text-align: center;">
+        <div>
+          <div
+            style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+          </div>
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">
+            Entrega Rápida</h3>
+          <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Prévia em até 2 dias úteis</p>
+          <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Agilidade sem perder qualidade</p>
+        </div>
+        <div>
+          <div
+            style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+          </div>
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">
+            Alta Resolução</h3>
+          <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Perfeito para impressão</p>
+          <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Formatos PDF, PNG e JPEG</p>
+        </div>
+        <div>
+          <div
+            style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+            <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+            </svg>
+          </div>
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">
+            Feita com Amor</h3>
+          <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Cada detalhe pensado com carinho</p>
+          <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Personalização com carinho</p>
+        </div>
       </div>
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">Entrega Rápida</h3>
-      <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Prévia em até 2 dias úteis</p>
-      <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Agilidade sem perder qualidade</p>
-     </div>
-     <div>
-      <div style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-       <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /> <polyline points="7 10 12 15 17 10" /> <line x1="12" y1="15" x2="12" y2="3" />
-       </svg>
+      <div class="floral-accent">
+        ✧
       </div>
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">Alta Resolução</h3>
-      <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Perfeito para impressão</p>
-      <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Formatos PDF, PNG e JPEG</p>
-     </div>
-     <div>
-      <div style="width: 100px; height: 100px; margin: 0 auto 20px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
-       <svg width="48" height="48" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-       </svg>
-      </div>
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.3rem; color: #5E527B; margin-bottom: 10px; font-weight: 600;">Feita com Amor</h3>
-      <p style="font-size: 0.95rem; margin: 8px 0; line-height: 1.7;">Cada detalhe pensado com carinho</p>
-      <p style="font-size: 0.9rem; opacity: 0.8; line-height: 1.6;">Personalização com carinho</p>
-     </div>
     </div>
-    <div class="floral-accent">
-     ✧
-    </div>
-   </div>
   </section><!-- Portfolio Section -->
   <section class="portfolio" id="portfolio">
-   <h2 class="section-title">Nossos Trabalhos</h2>
-   <div style="text-align: center; margin-top: -30px; margin-bottom: 20px;">
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="#C582B9" style="display: inline-block; margin: 0 8px; opacity: 0.7;"><polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
-    </svg>
-    <svg width="16" height="16" viewbox="0 0 24 24" fill="#C582B9" style="display: inline-block; margin: 0 8px; opacity: 0.5;"><polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
-    </svg>
-    <svg width="20" height="20" viewbox="0 0 24 24" fill="#C582B9" style="display: inline-block; margin: 0 8px; opacity: 0.7;"><polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
-    </svg>
-   </div>
-   <p style="text-align: center; max-width: 800px; margin: 0 auto 30px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">Cada projeto é único e especial, criado com amor e atenção aos detalhes que fazem a diferença</p>
-   <div style="text-align: center; margin-bottom: 50px;">
-    <div style="display: inline-flex; gap: 15px; flex-wrap: wrap; justify-content: center;"><button class="filter-btn active" data-filter="todos" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: #5E527B; color: white; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Todos os Projetos</button> <button class="filter-btn" data-filter="casamentos" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Casamentos</button> <button class="filter-btn" data-filter="cha-bebe" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Chá de Bebê</button> <button class="filter-btn" data-filter="aniversarios" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Aniversários</button> <button class="filter-btn" data-filter="outros" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Outros</button> <button class="filter-btn" data-filter="extras-section" style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;" onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }" onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Extras Digitais</button>
+    <h2 class="section-title">Nossos Trabalhos</h2>
+    <div style="text-align: center; margin-top: -30px; margin-bottom: 20px;">
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="#C582B9"
+        style="display: inline-block; margin: 0 8px; opacity: 0.7;">
+        <polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
+      </svg>
+      <svg width="16" height="16" viewbox="0 0 24 24" fill="#C582B9"
+        style="display: inline-block; margin: 0 8px; opacity: 0.5;">
+        <polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
+      </svg>
+      <svg width="20" height="20" viewbox="0 0 24 24" fill="#C582B9"
+        style="display: inline-block; margin: 0 8px; opacity: 0.7;">
+        <polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
+      </svg>
     </div>
-   </div>
-   <div class="portfolio-grid"><!-- Convite 1 - Casamento -->
-    <div class="portfolio-item" data-category="casamentos">
-     <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-noite-estrelada.png" alt="Convite Noite Estrelada - Eduarda &amp; Emmanuel" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #1a2a4e 0%, #2d3561 100%); align-items: center; justify-content: center; color: #ffd700; font-size: 3rem;">
-       ✨
+    <p
+      style="text-align: center; max-width: 800px; margin: 0 auto 30px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">
+      Cada projeto é único e especial, criado com amor e atenção aos detalhes que fazem a diferença</p>
+    <div style="text-align: center; margin-bottom: 50px;">
+      <div style="display: inline-flex; gap: 15px; flex-wrap: wrap; justify-content: center;"><button
+          class="filter-btn active" data-filter="todos"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: #5E527B; color: white; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Todos
+          os Projetos</button> <button class="filter-btn" data-filter="casamentos"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Casamentos</button>
+        <button class="filter-btn" data-filter="cha-bebe"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Chá
+          de Bebê</button> <button class="filter-btn" data-filter="aniversarios"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Aniversários</button>
+        <button class="filter-btn" data-filter="outros"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Outros</button>
+        <button class="filter-btn" data-filter="extras-section"
+          style="padding: 10px 25px; border: 2px solid #B7BFD4; background: white; color: #5E527B; border-radius: 25px; font-family: 'Montserrat', sans-serif; font-weight: 600; cursor: pointer; transition: all 0.3s ease;"
+          onmouseover="if(!this.classList.contains('active')) { this.style.borderColor='#C582B9'; this.style.transform='translateY(-2px)'; }"
+          onmouseout="if(!this.classList.contains('active')) { this.style.borderColor='#B7BFD4'; this.style.transform='translateY(0)'; }">Extras
+          Digitais</button>
       </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🌙 Casamento — Noite Estrelada
-      </div>
-      <h3>Eduarda &amp; Emmanuel</h3>
-      <p>Design celestial com fundo azul marinho, estrelas douradas e tipografia elegante</p>
-     </div>
-    </div><!-- Convite 2 - Casamento -->
-    <div class="portfolio-item" data-category="casamentos">
-     <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-botanico-maria.png" alt="Convite Botânico Natural - Maria &amp; Thiago" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); align-items: center; justify-content: center; color: #2e7d32; font-size: 3rem;">
-       🌿
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🌿 Casamento — Botânico Natural
-      </div>
-      <h3>Maria &amp; Thiago</h3>
-      <p>Folhagens em aquarela, flores delicadas e ícones interativos verdes</p>
-     </div>
-    </div><!-- Convite 3 - Casamento -->
-    <div class="portfolio-item" data-category="casamentos">
-     <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-botanico-franciele.png" alt="Convite Minimalista Botânico - Franciele &amp; Hugo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-      <div style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%); align-items: center; justify-content: center; color: #558b2f; font-size: 3rem;">
-       🍃
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🍃 Casamento — Minimalista Botânico
-      </div>
-      <h3>Franciele &amp; Hugo</h3>
-      <p>Eucalipto em tons suaves, tipografia moderna e design clean</p>
-     </div>
-    </div><!-- Convite 4 - Aniversário -->
-    <div class="portfolio-item" data-category="aniversarios">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff9e6 0%, #ffe5b4 100%); display: flex; align-items: center; justify-content: center; color: #ff69b4; font-size: 4rem;">
-       🎂
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🎉 Aniversário — Jardim Encantado
-      </div>
-      <h3>15 Anos da Sofia</h3>
-      <p>Tema jardim secreto com flores coloridas, borboletas e detalhes em dourado</p>
-      <div class="portfolio-includes">
-       <h4>✨ O que incluiu:</h4>
-       <ul>
-        <li>Convite digital animado</li>
-        <li>Artes para redes sociais</li>
-        <li>Cardápio personalizado</li>
-        <li>Plaquinhas decorativas</li>
-       </ul>
-      </div>
-     </div>
-    </div><!-- Convite 5 - Chá de Bebê -->
-    <div class="portfolio-item" data-category="cha-bebe">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); display: flex; align-items: center; justify-content: center; color: #64b5f6; font-size: 4rem;">
-       👶
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🍼 Chá de Bebê — Céu de Balões
-      </div>
-      <h3>Chá do Miguel</h3>
-      <p>Tema nuvens e balões azuis, ilustrações delicadas e tons pastéis suaves</p>
-      <div class="portfolio-includes">
-       <h4>✨ O que incluiu:</h4>
-       <ul>
-        <li>Convite digital temático</li>
-        <li>Tags para lembrancinhas</li>
-        <li>Plaquinhas para fotos</li>
-        <li>Rótulos personalizados</li>
-       </ul>
-      </div>
-     </div>
-    </div><!-- Convite 6 - Despedida de Solteira -->
-    <div class="portfolio-item" data-category="festa-despedida">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%); display: flex; align-items: center; justify-content: center; color: #ec407a; font-size: 4rem;">
-       💕
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       💗 Despedida — Glamour Rosé
-      </div>
-      <h3>Despedida da Júlia</h3>
-      <p>Estilo glam com tons de rosa e dourado, champagne e muito brilho</p>
-      <div class="portfolio-includes">
-       <h4>✨ O que incluiu:</h4>
-       <ul>
-        <li>Convite digital luxuoso</li>
-        <li>Artes para stories</li>
-        <li>Tags para brindes</li>
-        <li>Plaquinhas divertidas</li>
-       </ul>
-      </div>
-     </div>
-    </div><!-- Convite 7 - Outros -->
-    <div class="portfolio-item" data-category="outros">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); display: flex; align-items: center; justify-content: center; color: #ff9800; font-size: 4rem;">
-       🎓
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🎓 Formatura — Elegância Acadêmica
-      </div>
-      <h3>Formatura Medicina 2024</h3>
-      <p>Design sofisticado com elementos acadêmicos, tons de dourado e azul marinho</p>
-      <div class="portfolio-includes">
-       <h4>✨ O que incluiu:</h4>
-       <ul>
-        <li>Convite digital formal</li>
-        <li>Programa do evento</li>
-        <li>Cardápio da festa</li>
-        <li>Tags para lembranças</li>
-       </ul>
-      </div>
-     </div>
-    </div><!-- Convite 8 - Outros -->
-    <div class="portfolio-item" data-category="outros">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%); display: flex; align-items: center; justify-content: center; color: #5e35b1; font-size: 4rem;">
-       🏠
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🏠 Casa Nova — Bem-vindo ao Lar
-      </div>
-      <h3>Inauguração da Casa</h3>
-      <p>Tema acolhedor com elementos de casa, plantas e tons suaves de lilás</p>
-     </div>
-    </div><!-- Extras Section --> <!-- Extra 1 - Tags -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff9e6 0%, #ffe5b4 100%); display: flex; align-items: center; justify-content: center; color: #ff9800; font-size: 4rem;">
-       🏷️
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🏷️ Extra Digital — Tags Personalizadas
-      </div>
-      <h3>Tags Casamento Botânico</h3>
-      <p>Tags delicadas com folhagens para lembrancinhas do casamento</p>
-     </div>
-    </div><!-- Extra 2 - Plaquinhas -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); display: flex; align-items: center; justify-content: center; color: #2e7d32; font-size: 4rem;">
-       🪧
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🪧 Extra Digital — Plaquinhas Decorativas
-      </div>
-      <h3>Plaquinhas para Fotos</h3>
-      <p>Conjunto de 10 plaquinhas divertidas harmonizadas com o tema do evento</p>
-     </div>
-    </div><!-- Extra 3 - Cardápio -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%); display: flex; align-items: center; justify-content: center; color: #ec407a; font-size: 4rem;">
-       📋
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       📋 Extra Digital — Cardápio Personalizado
-      </div>
-      <h3>Cardápio de Casamento</h3>
-      <p>Cardápio elegante com menu completo no estilo do convite</p>
-     </div>
-    </div><!-- Extra 4 - Save the Date -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); display: flex; align-items: center; justify-content: center; color: #1976d2; font-size: 4rem;">
-       💌
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       💌 Extra Digital — Save the Date
-      </div>
-      <h3>Save the Date Elegante</h3>
-      <p>Aviso prévio estiloso para anunciar a data do grande dia</p>
-     </div>
-    </div><!-- Extra 5 - Adesivos -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%); display: flex; align-items: center; justify-content: center; color: #558b2f; font-size: 4rem;">
-       ✨
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       ✨ Extra Digital — Adesivos Personalizados
-      </div>
-      <h3>Adesivos Decorativos</h3>
-      <p>Conjunto de adesivos temáticos para decoração e personalização</p>
-     </div>
-    </div><!-- Extra 6 - Lista de Presentes -->
-    <div class="portfolio-item" data-category="extras-section">
-     <div class="portfolio-image">
-      <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); display: flex; align-items: center; justify-content: center; color: #f57c00; font-size: 4rem;">
-       🎁
-      </div>
-     </div>
-     <div class="portfolio-content">
-      <div class="portfolio-style">
-       🎁 Extra Digital — Lista de Presentes
-      </div>
-      <h3>Lista Integrada</h3>
-      <p>Design harmonizado com links e informações sobre presentes</p>
-     </div>
     </div>
-   </div>
+    <div class="portfolio-grid"><!-- Convite 1 - Casamento -->
+      <div class="portfolio-item" data-category="casamentos">
+        <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-noite-estrelada.png"
+            alt="Convite Noite Estrelada - Eduarda &amp; Emmanuel"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div
+            style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #1a2a4e 0%, #2d3561 100%); align-items: center; justify-content: center; color: #ffd700; font-size: 3rem;">
+            ✨
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🌙 Casamento — Noite Estrelada
+          </div>
+          <h3>Eduarda &amp; Emmanuel</h3>
+          <p>Design celestial com fundo azul marinho, estrelas douradas e tipografia elegante</p>
+        </div>
+      </div><!-- Convite 2 - Casamento -->
+      <div class="portfolio-item" data-category="casamentos">
+        <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-botanico-maria.png"
+            alt="Convite Botânico Natural - Maria &amp; Thiago"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div
+            style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); align-items: center; justify-content: center; color: #2e7d32; font-size: 3rem;">
+            🌿
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🌿 Casamento — Botânico Natural
+          </div>
+          <h3>Maria &amp; Thiago</h3>
+          <p>Folhagens em aquarela, flores delicadas e ícones interativos verdes</p>
+        </div>
+      </div><!-- Convite 3 - Casamento -->
+      <div class="portfolio-item" data-category="casamentos">
+        <div class="portfolio-image"><img src="https://era-dapapelaria.vercel.app/images/convite-botanico-franciele.png"
+            alt="Convite Minimalista Botânico - Franciele &amp; Hugo"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div
+            style="display: none; width: 100%; height: 100%; background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%); align-items: center; justify-content: center; color: #558b2f; font-size: 3rem;">
+            🍃
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🍃 Casamento — Minimalista Botânico
+          </div>
+          <h3>Franciele &amp; Hugo</h3>
+          <p>Eucalipto em tons suaves, tipografia moderna e design clean</p>
+        </div>
+      </div><!-- Convite 4 - Aniversário -->
+      <div class="portfolio-item" data-category="aniversarios">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff9e6 0%, #ffe5b4 100%); display: flex; align-items: center; justify-content: center; color: #ff69b4; font-size: 4rem;">
+            🎂
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🎉 Aniversário — Jardim Encantado
+          </div>
+          <h3>15 Anos da Sofia</h3>
+          <p>Tema jardim secreto com flores coloridas, borboletas e detalhes em dourado</p>
+          <div class="portfolio-includes">
+            <h4>✨ O que incluiu:</h4>
+            <ul>
+              <li>Convite digital animado</li>
+              <li>Artes para redes sociais</li>
+              <li>Cardápio personalizado</li>
+              <li>Plaquinhas decorativas</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- Convite 5 - Chá de Bebê -->
+      <div class="portfolio-item" data-category="cha-bebe">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); display: flex; align-items: center; justify-content: center; color: #64b5f6; font-size: 4rem;">
+            👶
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🍼 Chá de Bebê — Céu de Balões
+          </div>
+          <h3>Chá do Miguel</h3>
+          <p>Tema nuvens e balões azuis, ilustrações delicadas e tons pastéis suaves</p>
+          <div class="portfolio-includes">
+            <h4>✨ O que incluiu:</h4>
+            <ul>
+              <li>Convite digital temático</li>
+              <li>Tags para lembrancinhas</li>
+              <li>Plaquinhas para fotos</li>
+              <li>Rótulos personalizados</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- Convite 6 - Despedida de Solteira -->
+      <div class="portfolio-item" data-category="festa-despedida">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%); display: flex; align-items: center; justify-content: center; color: #ec407a; font-size: 4rem;">
+            💕
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            💗 Despedida — Glamour Rosé
+          </div>
+          <h3>Despedida da Júlia</h3>
+          <p>Estilo glam com tons de rosa e dourado, champagne e muito brilho</p>
+          <div class="portfolio-includes">
+            <h4>✨ O que incluiu:</h4>
+            <ul>
+              <li>Convite digital luxuoso</li>
+              <li>Artes para stories</li>
+              <li>Tags para brindes</li>
+              <li>Plaquinhas divertidas</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- Convite 7 - Outros -->
+      <div class="portfolio-item" data-category="outros">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); display: flex; align-items: center; justify-content: center; color: #ff9800; font-size: 4rem;">
+            🎓
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🎓 Formatura — Elegância Acadêmica
+          </div>
+          <h3>Formatura Medicina 2024</h3>
+          <p>Design sofisticado com elementos acadêmicos, tons de dourado e azul marinho</p>
+          <div class="portfolio-includes">
+            <h4>✨ O que incluiu:</h4>
+            <ul>
+              <li>Convite digital formal</li>
+              <li>Programa do evento</li>
+              <li>Cardápio da festa</li>
+              <li>Tags para lembranças</li>
+            </ul>
+          </div>
+        </div>
+      </div><!-- Convite 8 - Outros -->
+      <div class="portfolio-item" data-category="outros">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%); display: flex; align-items: center; justify-content: center; color: #5e35b1; font-size: 4rem;">
+            🏠
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🏠 Casa Nova — Bem-vindo ao Lar
+          </div>
+          <h3>Inauguração da Casa</h3>
+          <p>Tema acolhedor com elementos de casa, plantas e tons suaves de lilás</p>
+        </div>
+      </div><!-- Extras Section --> <!-- Extra 1 - Tags -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff9e6 0%, #ffe5b4 100%); display: flex; align-items: center; justify-content: center; color: #ff9800; font-size: 4rem;">
+            🏷️
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🏷️ Extra Digital — Tags Personalizadas
+          </div>
+          <h3>Tags Casamento Botânico</h3>
+          <p>Tags delicadas com folhagens para lembrancinhas do casamento</p>
+        </div>
+      </div><!-- Extra 2 - Plaquinhas -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%); display: flex; align-items: center; justify-content: center; color: #2e7d32; font-size: 4rem;">
+            🪧
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🪧 Extra Digital — Plaquinhas Decorativas
+          </div>
+          <h3>Plaquinhas para Fotos</h3>
+          <p>Conjunto de 10 plaquinhas divertidas harmonizadas com o tema do evento</p>
+        </div>
+      </div><!-- Extra 3 - Cardápio -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fce4ec 0%, #f8bbd0 100%); display: flex; align-items: center; justify-content: center; color: #ec407a; font-size: 4rem;">
+            📋
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            📋 Extra Digital — Cardápio Personalizado
+          </div>
+          <h3>Cardápio de Casamento</h3>
+          <p>Cardápio elegante com menu completo no estilo do convite</p>
+        </div>
+      </div><!-- Extra 4 - Save the Date -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); display: flex; align-items: center; justify-content: center; color: #1976d2; font-size: 4rem;">
+            💌
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            💌 Extra Digital — Save the Date
+          </div>
+          <h3>Save the Date Elegante</h3>
+          <p>Aviso prévio estiloso para anunciar a data do grande dia</p>
+        </div>
+      </div><!-- Extra 5 - Adesivos -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #f1f8e9 0%, #dcedc8 100%); display: flex; align-items: center; justify-content: center; color: #558b2f; font-size: 4rem;">
+            ✨
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            ✨ Extra Digital — Adesivos Personalizados
+          </div>
+          <h3>Adesivos Decorativos</h3>
+          <p>Conjunto de adesivos temáticos para decoração e personalização</p>
+        </div>
+      </div><!-- Extra 6 - Lista de Presentes -->
+      <div class="portfolio-item" data-category="extras-section">
+        <div class="portfolio-image">
+          <div
+            style="width: 100%; height: 100%; background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); display: flex; align-items: center; justify-content: center; color: #f57c00; font-size: 4rem;">
+            🎁
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <div class="portfolio-style">
+            🎁 Extra Digital — Lista de Presentes
+          </div>
+          <h3>Lista Integrada</h3>
+          <p>Design harmonizado com links e informações sobre presentes</p>
+        </div>
+      </div>
+    </div>
   </section><!-- How It Works Section -->
   <section style="padding: 100px 20px; background: linear-gradient(180deg, #F2E6ED 0%, #d4c5d9 100%);">
-   <h2 class="section-title">Como Funciona?</h2>
-   <p style="text-align: center; max-width: 800px; margin: 0 auto 60px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">Um processo simples e transparente para criar seu convite dos sonhos</p>
-   <div style="max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px;">
-    <div style="text-align: center;">
-     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
-      <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-      </svg>
-     </div>
-     <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">Escolha seu Estilo</h3>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">Navegue pelos nossos kits digitais</p>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">Escolha entre kits prontos ou personalizados que mais combinam com seu evento</p>
+    <h2 class="section-title">Como Funciona?</h2>
+    <p
+      style="text-align: center; max-width: 800px; margin: 0 auto 60px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">
+      Um processo simples e transparente para criar seu convite dos sonhos</p>
+    <div style="max-width: 900px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px;">
+      <div style="text-align: center;">
+        <div
+          style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
+          <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+          </svg>
+        </div>
+        <h3
+          style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">
+          Escolha seu Estilo</h3>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">
+          Navegue pelos nossos kits digitais</p>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">
+          Escolha entre kits prontos ou personalizados que mais combinam com seu evento</p>
+      </div>
+      <div style="text-align: center;">
+        <div
+          style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
+          <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
+          </svg>
+        </div>
+        <h3
+          style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">
+          Preencha o Formulário</h3>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">
+          Conte-nos sobre seu evento especial</p>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">
+          Informações sobre data, estilo e suas preferências para criarmos algo único</p>
+      </div>
+      <div style="text-align: center;">
+        <div
+          style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
+          <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <polyline points="12 6 12 12 16 14" />
+          </svg>
+        </div>
+        <h3
+          style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">
+          Receba a Prévia</h3>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">
+          Em até 2 dias úteis no seu e-mail</p>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">
+          Você pode solicitar até 3 revisões até ficar perfeito</p>
+      </div>
+      <div style="text-align: center;">
+        <div
+          style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
+          <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+        </div>
+        <h3
+          style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">
+          Download dos Arquivos</h3>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">
+          Receba seus arquivos em alta resolução</p>
+        <p
+          style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">
+          Arquivos em PDF e PNG prontos para compartilhar ou imprimir onde quiser</p>
+      </div>
     </div>
-    <div style="text-align: center;">
-     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
-      <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15 9 22 10 17 15 18 22 12 18 6 22 7 15 2 10 9 9" />
-      </svg>
-     </div>
-     <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">Preencha o Formulário</h3>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">Conte-nos sobre seu evento especial</p>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">Informações sobre data, estilo e suas preferências para criarmos algo único</p>
+    <div style="text-align: center; margin-top: 60px;">
+      <div
+        style="background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); padding: 30px 50px; border-radius: 20px; display: inline-block; box-shadow: 0 5px 20px rgba(197, 130, 185, 0.2); border: 2px solid #C582B9;">
+        <p style="font-family: 'Dancing Script', cursive; font-size: 2rem; color: #5E527B; margin: 0;">Tudo digital.
+          Tudo com alma.</p>
+      </div>
     </div>
-    <div style="text-align: center;">
-     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
-      <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /> <polyline points="12 6 12 12 16 14" />
-      </svg>
-     </div>
-     <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">Receba a Prévia</h3>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">Em até 2 dias úteis no seu e-mail</p>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">Você pode solicitar até 3 revisões até ficar perfeito</p>
-    </div>
-    <div style="text-align: center;">
-     <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 25px; border: 3px solid #C582B9;">
-      <svg width="40" height="40" viewbox="0 0 24 24" fill="none" stroke="#5E527B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /> <polyline points="7 10 12 15 17 10" /> <line x1="12" y1="15" x2="12" y2="3" />
-      </svg>
-     </div>
-     <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.4rem; color: #5E527B; margin-bottom: 15px; font-weight: 600;">Download dos Arquivos</h3>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin-bottom: 10px; font-size: 0.95rem;">Receba seus arquivos em alta resolução</p>
-     <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; font-size: 0.9rem; opacity: 0.8;">Arquivos em PDF e PNG prontos para compartilhar ou imprimir onde quiser</p>
-    </div>
-   </div>
-   <div style="text-align: center; margin-top: 60px;">
-    <div style="background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); padding: 30px 50px; border-radius: 20px; display: inline-block; box-shadow: 0 5px 20px rgba(197, 130, 185, 0.2); border: 2px solid #C582B9;">
-     <p style="font-family: 'Dancing Script', cursive; font-size: 2rem; color: #5E527B; margin: 0;">Tudo digital. Tudo com alma.</p>
-    </div>
-   </div>
   </section><!-- Values Section (REFACTOR START) -->
   <section class="promo-editorial" id="valores">
-   <div class="editorial-container"><!-- Header & Intro -->
-    <div class="editorial-header"><span class="editorial-tag">Edição Limitada</span>
-     <h2 class="editorial-title">Promoção de Lançamento</h2>
-     <div class="editorial-image-frame">
-      <div class="placeholder-icon">
-       ✧
+    <div class="editorial-container"><!-- Header & Intro -->
+      <div class="editorial-header"><span class="editorial-tag">Edição Limitada</span>
+        <h2 class="editorial-title">Promoção de Lançamento</h2>
+        <div class="editorial-image-frame">
+          <div class="placeholder-icon">
+            ✧
+          </div>
+          <p class="placeholder-caption">Onde o amor encontra a arte</p>
+        </div>
+        <div class="price-block"><span class="old-price">R$ 119,90</span> <span class="new-price">R$ 79,90</span>
+        </div><!-- Rules Text Block -->
+        <div class="promo-rules">
+          <p>✨ Os 10 primeiros casais recebem o Kit Personalizado por R$ 79,90 (de R$ 119,90).</p>
+          <p>Os convites criados durante esta promoção podem se tornar modelos oficiais do Kit Básico no futuro.</p>
+          <p>Após o casamento, todo design personalizado pode virar modelo básico, a menos que o casal peça
+            exclusividade.</p>
+          <div class="exclusivity-note">
+            – Se o casal desejar exclusividade total, incluir aviso discreto para entrar em contato.
+          </div>
+        </div>
+      </div><!-- Styles Grid -->
+      <h3 class="styles-header">Vagas Limitadas por Estilo:</h3>
+      <div class="styles-grid"><!-- Style 1 -->
+        <div class="style-card">
+          <h3 class="style-title">Era Clássica</h3><span class="style-subtitle">estilo clássico</span>
+          <p class="style-desc">Sofisticação atemporal e composição impecável.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div><!-- Style 2 -->
+        <div class="style-card">
+          <h3 class="style-title">Linha Contemporânea</h3><span class="style-subtitle">estilo moderno</span>
+          <p class="style-desc">Estética atual, geométrica e segura.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div><!-- Style 3 -->
+        <div class="style-card">
+          <h3 class="style-title">Essência Minimal</h3><span class="style-subtitle">estilo minimalista</span>
+          <p class="style-desc">Beleza no essencial e serenidade visual.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div><!-- Style 4 -->
+        <div class="style-card">
+          <h3 class="style-title">Romance de Papel</h3><span class="style-subtitle">estilo romântico</span>
+          <p class="style-desc">Flores suaves e poesia impressa.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div><!-- Style 5 -->
+        <div class="style-card">
+          <h3 class="style-title">Natureza Poética</h3><span class="style-subtitle">estilo rústico</span>
+          <p class="style-desc">Texturas orgânicas e atmosfera natural.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div><!-- Style 6 -->
+        <div class="style-card">
+          <h3 class="style-title">Estúdio Criativo</h3><span class="style-subtitle">estilo artístico</span>
+          <p class="style-desc">Traços livres e estética autoral.</p><span class="slots-badge"><strong>2
+              vagas</strong></span>
+        </div>
+      </div><!-- Form -->
+      <div class="form-container">
+        <h4
+          style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: #5E527B; margin-bottom: 10px; text-align: center; font-weight: 600;">
+          Reserve Sua História</h4>
+        <p
+          style="font-family: 'Montserrat', sans-serif; font-size: 0.95rem; color: #0A0C23; text-align: center; margin-bottom: 30px;">
+          Preencha para garantir sua vaga promocional</p>
+        <form id="promo-form">
+          <div class="form-group"><label for="promo-name">Nome Completo *</label> <input type="text" id="promo-name"
+              name="name" required>
+          </div>
+          <div class="form-group"><label for="promo-email">E-mail *</label> <input type="email" id="promo-email"
+              name="email" required>
+          </div>
+          <div class="form-group"><label for="promo-phone">WhatsApp *</label> <input type="tel" id="promo-phone"
+              name="phone" required placeholder="(11) 99999-9999">
+          </div>
+          <div class="form-group"><label for="promo-style">Estilo Desejado *</label> <select id="promo-style"
+              name="style" required>
+              <option value="">Selecione um estilo</option>
+              <option value="era-classica">Era Clássica (Clássico)</option>
+              <option value="linha-contemporanea">Linha Contemporânea (Moderno)</option>
+              <option value="essencia-minimal">Essência Minimal (Minimalista)</option>
+              <option value="romance-papel">Romance de Papel (Romântico)</option>
+              <option value="natureza-poetica">Natureza Poética (Rústico)</option>
+              <option value="estudio-criativo">Estúdio Criativo (Artístico)</option>
+            </select>
+          </div>
+          <div class="form-group"><label for="promo-date">Data do Evento</label> <input type="date" id="promo-date"
+              name="event-date">
+          </div><button type="submit"
+            style="width: 100%; padding: 18px; background-color: #5E527B; color: #ffffff; border: none; font-size: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.3s ease;">Garantir
+            Vaga</button>
+        </form>
       </div>
-      <p class="placeholder-caption">Onde o amor encontra a arte</p>
-     </div>
-     <div class="price-block"><span class="old-price">R$ 119,90</span> <span class="new-price">R$ 79,90</span>
-     </div><!-- Rules Text Block -->
-     <div class="promo-rules">
-      <p>✨ Os 10 primeiros casais recebem o Kit Personalizado por R$ 79,90 (de R$ 119,90).</p>
-      <p>Os convites criados durante esta promoção podem se tornar modelos oficiais do Kit Básico no futuro.</p>
-      <p>Após o casamento, todo design personalizado pode virar modelo básico, a menos que o casal peça exclusividade.</p>
-      <div class="exclusivity-note">
-       – Se o casal desejar exclusividade total, incluir aviso discreto para entrar em contato.
+      <div class="poetic-footer">
+        Um presente da Era da Papelaria para quem deseja começar o amor já envolto em poesia. ✨
       </div>
-     </div>
-    </div><!-- Styles Grid -->
-    <h3 class="styles-header">Vagas Limitadas por Estilo:</h3>
-    <div class="styles-grid"><!-- Style 1 -->
-     <div class="style-card">
-      <h3 class="style-title">Era Clássica</h3><span class="style-subtitle">estilo clássico</span>
-      <p class="style-desc">Sofisticação atemporal e composição impecável.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div><!-- Style 2 -->
-     <div class="style-card">
-      <h3 class="style-title">Linha Contemporânea</h3><span class="style-subtitle">estilo moderno</span>
-      <p class="style-desc">Estética atual, geométrica e segura.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div><!-- Style 3 -->
-     <div class="style-card">
-      <h3 class="style-title">Essência Minimal</h3><span class="style-subtitle">estilo minimalista</span>
-      <p class="style-desc">Beleza no essencial e serenidade visual.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div><!-- Style 4 -->
-     <div class="style-card">
-      <h3 class="style-title">Romance de Papel</h3><span class="style-subtitle">estilo romântico</span>
-      <p class="style-desc">Flores suaves e poesia impressa.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div><!-- Style 5 -->
-     <div class="style-card">
-      <h3 class="style-title">Natureza Poética</h3><span class="style-subtitle">estilo rústico</span>
-      <p class="style-desc">Texturas orgânicas e atmosfera natural.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div><!-- Style 6 -->
-     <div class="style-card">
-      <h3 class="style-title">Estúdio Criativo</h3><span class="style-subtitle">estilo artístico</span>
-      <p class="style-desc">Traços livres e estética autoral.</p><span class="slots-badge"><strong>2 vagas</strong></span>
-     </div>
-    </div><!-- Form -->
-    <div class="form-container">
-     <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: #5E527B; margin-bottom: 10px; text-align: center; font-weight: 600;">Reserve Sua História</h4>
-     <p style="font-family: 'Montserrat', sans-serif; font-size: 0.95rem; color: #0A0C23; text-align: center; margin-bottom: 30px;">Preencha para garantir sua vaga promocional</p>
-     <form id="promo-form">
-      <div class="form-group"><label for="promo-name">Nome Completo *</label> <input type="text" id="promo-name" name="name" required>
-      </div>
-      <div class="form-group"><label for="promo-email">E-mail *</label> <input type="email" id="promo-email" name="email" required>
-      </div>
-      <div class="form-group"><label for="promo-phone">WhatsApp *</label> <input type="tel" id="promo-phone" name="phone" required placeholder="(11) 99999-9999">
-      </div>
-      <div class="form-group"><label for="promo-style">Estilo Desejado *</label> <select id="promo-style" name="style" required> <option value="">Selecione um estilo</option> <option value="era-classica">Era Clássica (Clássico)</option> <option value="linha-contemporanea">Linha Contemporânea (Moderno)</option> <option value="essencia-minimal">Essência Minimal (Minimalista)</option> <option value="romance-papel">Romance de Papel (Romântico)</option> <option value="natureza-poetica">Natureza Poética (Rústico)</option> <option value="estudio-criativo">Estúdio Criativo (Artístico)</option> </select>
-      </div>
-      <div class="form-group"><label for="promo-date">Data do Evento</label> <input type="date" id="promo-date" name="event-date">
-      </div><button type="submit" style="width: 100%; padding: 18px; background-color: #5E527B; color: #ffffff; border: none; font-size: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: all 0.3s ease;">Garantir Vaga</button>
-     </form>
     </div>
-    <div class="poetic-footer">
-     Um presente da Era da Papelaria para quem deseja começar o amor já envolto em poesia. ✨
-    </div>
-   </div>
   </section><!-- Values Section (REFACTOR END) --> <!-- Extras Section -->
   <section class="extras" id="extras">
-   <h2 class="section-title">Extras Digitais</h2>
-   <p style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">Complete seu kit com itens especiais para deixar seu evento ainda mais único</p>
-   <div style="max-width: 1000px; margin: 0 auto;">
-    <div class="extras-grid">
-     <div class="extra-item" data-price="25">
-      <div class="extra-icon">
-       💌
+    <h2 class="section-title">Extras Digitais</h2>
+    <p
+      style="text-align: center; max-width: 800px; margin: 0 auto 50px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">
+      Complete seu kit com itens especiais para deixar seu evento ainda mais único</p>
+    <div style="max-width: 1000px; margin: 0 auto;">
+      <div class="extras-grid">
+        <div class="extra-item" data-price="25">
+          <div class="extra-icon">
+            💌
+          </div>
+          <h3>Save the Date</h3>
+          <p>Aviso prévio estiloso</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 25
+          </div>
+        </div>
+        <div class="extra-item" data-price="15">
+          <div class="extra-icon">
+            🏷️
+          </div>
+          <h3>Tags Personalizadas</h3>
+          <p>Para lembrancinhas</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 15
+          </div>
+        </div>
+        <div class="extra-item" data-price="20">
+          <div class="extra-icon">
+            🎁
+          </div>
+          <h3>Lista de Presentes</h3>
+          <p>Design integrado</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 20
+          </div>
+        </div>
+        <div class="extra-item" data-price="20">
+          <div class="extra-icon">
+            🪧
+          </div>
+          <h3>Plaquinhas Decorativas</h3>
+          <p>Para fotos e decoração</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 20
+          </div>
+        </div>
+        <div class="extra-item" data-price="30">
+          <div class="extra-icon">
+            📋
+          </div>
+          <h3>Cardápios Digitais</h3>
+          <p>Harmonizado ao seu tema</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 30
+          </div>
+        </div>
+        <div class="extra-item" data-price="18">
+          <div class="extra-icon">
+            ✨
+          </div>
+          <h3>Adesivos Personalizados</h3>
+          <p>Toque especial nos detalhes</p>
+          <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
+            R$ 18
+          </div>
+        </div>
       </div>
-      <h3>Save the Date</h3>
-      <p>Aviso prévio estiloso</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 25
-      </div>
-     </div>
-     <div class="extra-item" data-price="15">
-      <div class="extra-icon">
-       🏷️
-      </div>
-      <h3>Tags Personalizadas</h3>
-      <p>Para lembrancinhas</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 15
-      </div>
-     </div>
-     <div class="extra-item" data-price="20">
-      <div class="extra-icon">
-       🎁
-      </div>
-      <h3>Lista de Presentes</h3>
-      <p>Design integrado</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 20
-      </div>
-     </div>
-     <div class="extra-item" data-price="20">
-      <div class="extra-icon">
-       🪧
-      </div>
-      <h3>Plaquinhas Decorativas</h3>
-      <p>Para fotos e decoração</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 20
-      </div>
-     </div>
-     <div class="extra-item" data-price="30">
-      <div class="extra-icon">
-       📋
-      </div>
-      <h3>Cardápios Digitais</h3>
-      <p>Harmonizado ao seu tema</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 30
-      </div>
-     </div>
-     <div class="extra-item" data-price="18">
-      <div class="extra-icon">
-       ✨
-      </div>
-      <h3>Adesivos Personalizados</h3>
-      <p>Toque especial nos detalhes</p>
-      <div style="margin-top: 15px; font-size: 1.5rem; color: #5E527B; font-weight: 700;">
-       R$ 18
-      </div>
-     </div>
     </div>
-   </div>
-   <div style="text-align: center; margin-top: 50px;">
-    <div style="background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); padding: 25px 40px; border-radius: 20px; display: inline-block; box-shadow: 0 5px 20px rgba(197, 130, 185, 0.2); border: 2px solid #C582B9; margin-bottom: 30px;">
-     <p style="font-family: 'Montserrat', sans-serif; font-size: 1.05rem; color: #0A0C23; margin: 0; font-style: italic;">"Combine com qualquer kit para criar uma experiência completa"</p>
-    </div><br><a href="#portfolio" class="btn-primary" onclick="setTimeout(() => { document.querySelector('[data-filter=extras-section]').click(); }, 100);">Ver Exemplos de Extras</a>
-   </div>
+    <div style="text-align: center; margin-top: 50px;">
+      <div
+        style="background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); padding: 25px 40px; border-radius: 20px; display: inline-block; box-shadow: 0 5px 20px rgba(197, 130, 185, 0.2); border: 2px solid #C582B9; margin-bottom: 30px;">
+        <p
+          style="font-family: 'Montserrat', sans-serif; font-size: 1.05rem; color: #0A0C23; margin: 0; font-style: italic;">
+          "Combine com qualquer kit para criar uma experiência completa"</p>
+      </div><br><a href="#portfolio" class="btn-primary"
+        onclick="setTimeout(() => { document.querySelector('[data-filter=extras-section]').click(); }, 100);">Ver
+        Exemplos de Extras</a>
+    </div>
   </section><!-- FAQ Section -->
   <section id="faq" style="padding: 100px 20px; background: linear-gradient(180deg, #d4c5d9 0%, #E6F0FA 100%);">
-   <h2 class="section-title" style="display: flex; align-items: center; justify-content: center; gap: 15px;">
-    <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="2" opacity="0.6"><circle cx="12" cy="12" r="10" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <line x1="12" y1="17" x2="12.01" y2="17" />
-    </svg><span>Dúvidas Frequentes</span>
-    <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="2" opacity="0.6"><circle cx="12" cy="12" r="10" /> <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" /> <line x1="12" y1="17" x2="12.01" y2="17" />
-    </svg></h2>
-   <p style="text-align: center; max-width: 800px; margin: 0 auto 60px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">Esclarecemos as principais dúvidas para você se sentir segura</p>
-   <div style="max-width: 900px; margin: 0 auto;">
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Quanto tempo leva para receber meu convite?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">A prévia do seu convite é enviada em até 2 dias úteis após o preenchimento do formulário e confirmação do pagamento. Após sua aprovação, os arquivos finais em alta resolução são entregues em até 24 horas.</p>
-     </div>
+    <h2 class="section-title" style="display: flex; align-items: center; justify-content: center; gap: 15px;">
+      <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="2" opacity="0.6">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+        <line x1="12" y1="17" x2="12.01" y2="17" />
+      </svg><span>Dúvidas Frequentes</span>
+      <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="#C582B9" stroke-width="2" opacity="0.6">
+        <circle cx="12" cy="12" r="10" />
+        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+        <line x1="12" y1="17" x2="12.01" y2="17" />
+      </svg>
+    </h2>
+    <p
+      style="text-align: center; max-width: 800px; margin: 0 auto 60px; font-family: 'Montserrat', sans-serif; color: #0A0C23; font-size: 1.1rem;">
+      Esclarecemos as principais dúvidas para você se sentir segura</p>
+    <div style="max-width: 900px; margin: 0 auto;">
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Quanto tempo leva para receber meu convite?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            A prévia do seu convite é enviada em até 2 dias úteis após o preenchimento do formulário e confirmação do
+            pagamento. Após sua aprovação, os arquivos finais em alta resolução são entregues em até 24 horas.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Posso fazer alterações depois de aprovar?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Você tem direito a até 3 rodadas de revisões antes da aprovação final. Após a aprovação e entrega dos
+            arquivos finais, alterações adicionais podem ter custo extra.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Em quais formatos recebo os arquivos?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Todos os arquivos são entregues em alta resolução nos formatos PDF (ideal para impressão) e PNG (ideal para
+            compartilhamento digital via WhatsApp, redes sociais e e-mail). Você também pode solicitar JPEG se preferir.
+          </p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            A promoção dos 10 primeiros é real?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! É uma promoção de lançamento genuína, limitada a 10 casais (2 vagas por estilo). Após esgotar as vagas
+            promocionais, o Kit Personalizado retorna ao valor normal de R$ 119,90.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Posso imprimir quantas vezes quiser?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! Uma vez que você recebe os arquivos, eles são seus e você pode imprimir quantas vezes desejar, na
+            gráfica de sua preferência. Também fornecemos orientações sobre especificações técnicas para impressão.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Vocês fazem outros tipos de papelaria?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! Além dos convites, criamos save the date, cardápios, plaquinhas, tags, adesivos, lista de presentes e
+            muito mais. Qualquer item de papelaria para seu evento pode ser personalizado conosco.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Como funciona o pagamento?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Aceitamos pagamento via PIX (com desconto de 5%), cartão de crédito e transferência bancária. O pagamento é
+            solicitado após o envio do formulário e antes do início da criação.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            E se eu não gostar do resultado?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sua satisfação é nossa prioridade! Você tem direito a até 3 rodadas de revisões para ajustar cores, textos,
+            layout e detalhes até que fique exatamente como você imaginou. Trabalhamos juntos até você ficar
+            completamente satisfeita.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Como funciona o processo de criação?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            1) Você preenche nosso formulário com detalhes do evento; 2) Confirmamos o pagamento; 3) Criamos a prévia em
+            até 2 dias úteis; 4) Você solicita ajustes se necessário (até 3 rodadas); 5) Entregamos os arquivos finais
+            em alta resolução.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Os arquivos servem para impressão?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! Todos os arquivos são criados em alta resolução (300dpi) e no padrão CMYK, perfeito para impressão
+            profissional. Também incluímos orientações sobre papel, acabamento e especificações técnicas.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Como funcionam os extras digitais?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Os extras são itens adicionais de papelaria (tags, plaquinhas, cardápios, etc.) que complementam seu kit
+            principal. Cada extra custa entre R$ 15 e R$ 30 e segue o mesmo estilo visual do seu convite para criar uma
+            identidade visual completa.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Posso pedir apenas os extras, sem o kit principal?</h3><span
+            style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! Você pode solicitar apenas os extras digitais se preferir. Basta informar no formulário quais itens
+            deseja e fornecer as informações necessárias sobre estilo e conteúdo.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            O que é o Jornal dos Noivos?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            É um jornal personalizado de 4-6 páginas que conta a história de amor do casal de forma criativa, incluindo
+            linha do tempo, fotos, curiosidades, depoimentos e programação do casamento. É uma lembrança única e
+            emocionante que pode ser distribuída aos convidados ou guardada como recordação.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Quanto tempo leva para criar o Jornal dos Noivos?</h3><span
+            style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            A prévia do Jornal dos Noivos é entregue em até 5 dias úteis, considerando a complexidade e quantidade de
+            conteúdo. Você também tem direito a até 3 rodadas de revisão incluídas no valor.</p>
+        </div>
+      </div>
+      <div class="faq-item"
+        style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <h3
+            style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">
+            Preciso fornecer as fotos e textos para o jornal?</h3><span
+            style="font-size: 1.5rem; color: #C582B9;">+</span>
+        </div>
+        <div class="faq-answer"
+          style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
+          <p
+            style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">
+            Sim! Você precisa fornecer as fotos do casal e as informações que deseja incluir (história, datas
+            importantes, curiosidades, depoimentos). Nós organizamos, diagramamos e criamos o design completo
+            harmonizando com o estilo escolhido.</p>
+        </div>
+      </div>
     </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Posso fazer alterações depois de aprovar?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Você tem direito a até 3 rodadas de revisões antes da aprovação final. Após a aprovação e entrega dos arquivos finais, alterações adicionais podem ter custo extra.</p>
-     </div>
+    <div
+      style="text-align: center; margin-top: 60px; padding: 40px 30px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 20px; border: 2px solid #B7BFD4; max-width: 700px; margin-left: auto; margin-right: auto;">
+      <p
+        style="font-family: 'Montserrat', sans-serif; font-size: 1.15rem; color: #0A0C23; margin-bottom: 25px; font-weight: 500;">
+        Não encontrou sua dúvida? Fale conosco!</p>
+      <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;"><a
+          href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="social-link">
+          <svg viewbox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+          </svg><span>WhatsApp</span> </a> <a href="mailto:contato@eradapapelaria.com" target="_blank"
+          rel="noopener noreferrer" class="social-link">
+          <svg viewbox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path
+              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+          </svg><span>E-mail</span> </a>
+      </div>
     </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Em quais formatos recebo os arquivos?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Todos os arquivos são entregues em alta resolução nos formatos PDF (ideal para impressão) e PNG (ideal para compartilhamento digital via WhatsApp, redes sociais e e-mail). Você também pode solicitar JPEG se preferir.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">A promoção dos 10 primeiros é real?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! É uma promoção de lançamento genuína, limitada a 10 casais (2 vagas por estilo). Após esgotar as vagas promocionais, o Kit Personalizado retorna ao valor normal de R$ 119,90.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Posso imprimir quantas vezes quiser?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! Uma vez que você recebe os arquivos, eles são seus e você pode imprimir quantas vezes desejar, na gráfica de sua preferência. Também fornecemos orientações sobre especificações técnicas para impressão.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Vocês fazem outros tipos de papelaria?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! Além dos convites, criamos save the date, cardápios, plaquinhas, tags, adesivos, lista de presentes e muito mais. Qualquer item de papelaria para seu evento pode ser personalizado conosco.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Como funciona o pagamento?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Aceitamos pagamento via PIX (com desconto de 5%), cartão de crédito e transferência bancária. O pagamento é solicitado após o envio do formulário e antes do início da criação.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">E se eu não gostar do resultado?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sua satisfação é nossa prioridade! Você tem direito a até 3 rodadas de revisões para ajustar cores, textos, layout e detalhes até que fique exatamente como você imaginou. Trabalhamos juntos até você ficar completamente satisfeita.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Como funciona o processo de criação?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">1) Você preenche nosso formulário com detalhes do evento; 2) Confirmamos o pagamento; 3) Criamos a prévia em até 2 dias úteis; 4) Você solicita ajustes se necessário (até 3 rodadas); 5) Entregamos os arquivos finais em alta resolução.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Os arquivos servem para impressão?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! Todos os arquivos são criados em alta resolução (300dpi) e no padrão CMYK, perfeito para impressão profissional. Também incluímos orientações sobre papel, acabamento e especificações técnicas.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Como funcionam os extras digitais?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Os extras são itens adicionais de papelaria (tags, plaquinhas, cardápios, etc.) que complementam seu kit principal. Cada extra custa entre R$ 15 e R$ 30 e segue o mesmo estilo visual do seu convite para criar uma identidade visual completa.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Posso pedir apenas os extras, sem o kit principal?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! Você pode solicitar apenas os extras digitais se preferir. Basta informar no formulário quais itens deseja e fornecer as informações necessárias sobre estilo e conteúdo.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">O que é o Jornal dos Noivos?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">É um jornal personalizado de 4-6 páginas que conta a história de amor do casal de forma criativa, incluindo linha do tempo, fotos, curiosidades, depoimentos e programação do casamento. É uma lembrança única e emocionante que pode ser distribuída aos convidados ou guardada como recordação.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Quanto tempo leva para criar o Jornal dos Noivos?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">A prévia do Jornal dos Noivos é entregue em até 5 dias úteis, considerando a complexidade e quantidade de conteúdo. Você também tem direito a até 3 rodadas de revisão incluídas no valor.</p>
-     </div>
-    </div>
-    <div class="faq-item" style="background: #ffffff; border: 2px solid #B7BFD4; border-radius: 15px; padding: 25px 30px; margin-bottom: 20px; cursor: pointer; transition: all 0.3s ease;">
-     <div style="display: flex; justify-content: space-between; align-items: center;">
-      <h3 style="font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: #5E527B; margin: 0; font-weight: 600;">Preciso fornecer as fotos e textos para o jornal?</h3><span style="font-size: 1.5rem; color: #C582B9;">+</span>
-     </div>
-     <div class="faq-answer" style="display: none; margin-top: 20px; padding-top: 20px; border-top: 1px solid #B7BFD4;">
-      <p style="font-family: 'Montserrat', sans-serif; color: #0A0C23; line-height: 1.8; margin: 0; font-size: 0.95rem;">Sim! Você precisa fornecer as fotos do casal e as informações que deseja incluir (história, datas importantes, curiosidades, depoimentos). Nós organizamos, diagramamos e criamos o design completo harmonizando com o estilo escolhido.</p>
-     </div>
-    </div>
-   </div>
-   <div style="text-align: center; margin-top: 60px; padding: 40px 30px; background: linear-gradient(135deg, #E6F0FA 0%, #F2E6ED 100%); border-radius: 20px; border: 2px solid #B7BFD4; max-width: 700px; margin-left: auto; margin-right: auto;">
-    <p style="font-family: 'Montserrat', sans-serif; font-size: 1.15rem; color: #0A0C23; margin-bottom: 25px; font-weight: 500;">Não encontrou sua dúvida? Fale conosco!</p>
-    <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;"><a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="social-link">
-      <svg viewbox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-      </svg><span>WhatsApp</span> </a> <a href="mailto:contato@eradapapelaria.com" target="_blank" rel="noopener noreferrer" class="social-link">
-      <svg viewbox="0 0 24 24" width="24" height="24" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-      </svg><span>E-mail</span> </a>
-    </div>
-   </div>
   </section><!-- Footer -->
   <footer class="footer">
-   <p id="footer-text">Era da Papelaria - Onde o convite digital encontra o encanto do papel</p>
-   <p style="margin-top: 20px; font-size: 0.85rem; opacity: 0.8;">© 2024 Era da Papelaria. Todos os direitos reservados.</p>
-   <p style="font-size: 0.85rem; opacity: 0.8;">Papelaria digital personalizada com entrega por e-mail ou WhatsApp</p>
-  </footer><!-- WhatsApp Float Button --> <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" class="whatsapp-float" title="Fale conosco no WhatsApp">
-   <svg viewbox="0 0 24 24" width="32" height="32" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-   </svg></a>
+    <p id="footer-text">Era da Papelaria - Onde o convite digital encontra o encanto do papel</p>
+    <p style="margin-top: 20px; font-size: 0.85rem; opacity: 0.8;">© 2024 Era da Papelaria. Todos os direitos
+      reservados.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Papelaria digital personalizada com entrega por e-mail ou WhatsApp</p>
+  </footer><!-- WhatsApp Float Button --> <a href="https://wa.me/5511999999999" target="_blank"
+    rel="noopener noreferrer" class="whatsapp-float" title="Fale conosco no WhatsApp">
+    <svg viewbox="0 0 24 24" width="32" height="32" fill="white">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+    </svg></a>
   <script>
     const defaultConfig = {
       background_color: '#F2E6ED',
@@ -1585,7 +1906,7 @@
       document.body.style.fontSize = `${fontSize}px`;
 
       document.querySelector('.hero').style.background = `linear-gradient(135deg, ${backgroundColor} 0%, #E6F0FA 100%)`;
-      
+
       const allText = document.querySelectorAll('p, label, li');
       allText.forEach(el => {
         if (!el.classList.contains('handwritten') && !el.classList.contains('price')) {
@@ -1731,7 +2052,7 @@
 
     function handleSubmit(event) {
       event.preventDefault();
-      
+
       const formData = new FormData(event.target);
       const name = formData.get('name');
       const email = formData.get('email');
@@ -1739,55 +2060,55 @@
       const eventType = event.target.querySelector('#contact-event-type option:checked').textContent;
       const eventDate = formData.get('event-date');
       const message = formData.get('message');
-      
+
       // Coletar kits selecionados
       const kits = [];
       event.target.querySelectorAll('input[name="kits"]:checked').forEach(input => {
         const label = input.parentElement.querySelector('strong').textContent;
         kits.push(label);
       });
-      
+
       // Coletar extras selecionados
       const extras = [];
       event.target.querySelectorAll('input[name="extras"]:checked').forEach(input => {
         const label = input.nextElementSibling.textContent;
         extras.push(label);
       });
-      
+
       // Criar mensagem para WhatsApp
       let whatsappMessage = `📋 *NOVO PEDIDO - ERA DA PAPELARIA*%0A%0A` +
         `👤 *Nome:* ${name}%0A` +
         `📧 *E-mail:* ${email}%0A` +
         `📱 *WhatsApp:* ${phone}%0A` +
         `🎉 *Tipo de Evento:* ${eventType}%0A`;
-      
+
       if (eventDate) {
         whatsappMessage += `📅 *Data do Evento:* ${eventDate}%0A`;
       }
-      
+
       if (kits.length > 0) {
         whatsappMessage += `%0A📦 *Kits Desejados:*%0A`;
         kits.forEach(kit => {
           whatsappMessage += `  • ${kit}%0A`;
         });
       }
-      
+
       if (extras.length > 0) {
         whatsappMessage += `%0A✨ *Extras Desejados:*%0A`;
         extras.forEach(extra => {
           whatsappMessage += `  • ${extra}%0A`;
         });
       }
-      
+
       if (message) {
         whatsappMessage += `%0A💭 *Mensagem:*%0A${message}%0A`;
       }
-      
+
       whatsappMessage += `%0A_Mensagem enviada via site Era da Papelaria_`;
-      
+
       // Abrir WhatsApp em nova aba
       window.open(`https://wa.me/5511999999999?text=${whatsappMessage}`, '_blank', 'noopener,noreferrer');
-      
+
       const messageDiv = document.createElement('div');
       messageDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); z-index: 10000; text-align: center; max-width: 500px; border: 2px solid #C582B9;';
       messageDiv.innerHTML = `
@@ -1796,10 +2117,10 @@
         <p style="color: #0A0C23; line-height: 1.6; margin-bottom: 20px; font-family: 'Montserrat', sans-serif;">Obrigada pelo contato, ${name}! Seu pedido foi enviado via WhatsApp. Responderemos em breve para começar a criar algo especial para você.</p>
         <button onclick="this.parentElement.remove()" style="background: #5E527B; color: white; border: none; padding: 12px 30px; border-radius: 25px; cursor: pointer; font-size: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 600;">Fechar</button>
       `;
-      
+
       document.body.appendChild(messageDiv);
       event.target.reset();
-      
+
       setTimeout(() => {
         messageDiv.remove();
       }, 5000);
@@ -1807,11 +2128,11 @@
 
     function handlePromoSubmit(event) {
       event.preventDefault();
-      
+
       const formData = new FormData(event.target);
       const name = formData.get('name');
       const style = event.target.querySelector('#promo-style option:checked').textContent;
-      
+
       const messageDiv = document.createElement('div');
       messageDiv.style.cssText = 'position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); z-index: 10000; text-align: center; max-width: 500px; border: 2px solid #C582B9;';
       messageDiv.innerHTML = `
@@ -1820,10 +2141,10 @@
         <p style="color: #0A0C23; line-height: 1.6; margin-bottom: 20px; font-family: 'Montserrat', sans-serif;">Parabéns, ${name}! Sua vaga no estilo ${style} foi reservada com sucesso. Entraremos em contato em breve pelo WhatsApp para confirmar todos os detalhes.</p>
         <button onclick="this.parentElement.remove()" style="background: #5E527B; color: white; border: none; padding: 12px 30px; border-radius: 25px; cursor: pointer; font-size: 1rem; font-family: 'Montserrat', sans-serif; font-weight: 600;">Fechar</button>
       `;
-      
+
       document.body.appendChild(messageDiv);
       event.target.reset();
-      
+
       setTimeout(() => {
         messageDiv.remove();
       }, 5000);
@@ -1948,7 +2269,7 @@
           const description = item.querySelector('.portfolio-content > p').textContent;
           const img = item.querySelector('.portfolio-image img');
           const imgSrc = img && img.style.display !== 'none' ? img.src : '';
-          
+
           const modal = document.createElement('div');
           modal.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.85); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 20px; overflow-y: auto;';
           modal.innerHTML = `
@@ -1996,7 +2317,7 @@
           const title = item.querySelector('h3').textContent;
           const price = item.getAttribute('data-price');
           const description = item.querySelector('p').textContent;
-          
+
           const modal = document.createElement('div');
           modal.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.7); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 20px;';
           modal.innerHTML = `
@@ -2023,10 +2344,10 @@
 
       // FAQ accordion functionality
       const faqItems = document.querySelectorAll('.faq-item');
-      
+
       faqItems.forEach(item => {
         // Adiciona o evento de clique no item inteiro
-        item.addEventListener('click', function() {
+        item.addEventListener('click', function () {
           const answer = this.querySelector('.faq-answer');
           const iconSpan = this.querySelector('div:first-child span:last-child');
           const isOpen = answer.style.display === 'block';
@@ -2058,14 +2379,14 @@
         });
 
         // Hover effect
-        item.addEventListener('mouseenter', function() {
+        item.addEventListener('mouseenter', function () {
           const answer = this.querySelector('.faq-answer');
           if (answer && answer.style.display !== 'block') {
             this.style.borderColor = '#C582B9';
           }
         });
 
-        item.addEventListener('mouseleave', function() {
+        item.addEventListener('mouseleave', function () {
           const answer = this.querySelector('.faq-answer');
           if (answer && answer.style.display !== 'block') {
             this.style.borderColor = '#B7BFD4';
@@ -2083,6 +2404,7 @@
       });
     }
   </script>
- </body>
+</body>
+
 </html>
 ```
