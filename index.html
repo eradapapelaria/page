@@ -2076,31 +2076,31 @@
 
       // Criar mensagem para WhatsApp
       let whatsappMessage = `📋 *NOVO PEDIDO - ERA DA PAPELARIA*%0A%0A` +
-        `👤 *Nome:* ${name}%0A` +
-        `📧 *E-mail:* ${email}%0A` +
-        `📱 *WhatsApp:* ${phone}%0A` +
-        `🎉 *Tipo de Evento:* ${eventType}%0A`;
+        `*Nome:* ${name}%0A` +
+        `*E-mail:* ${email}%0A` +
+        `*WhatsApp:* ${phone}%0A` +
+        `*Tipo de Evento:* ${eventType}%0A`;
 
       if (eventDate) {
-        whatsappMessage += `📅 *Data do Evento:* ${eventDate}%0A`;
+        whatsappMessage += `*Data do Evento:* ${eventDate}%0A`;
       }
 
       if (kits.length > 0) {
-        whatsappMessage += `%0A📦 *Kits Desejados:*%0A`;
+        whatsappMessage += `%0A*Kits Desejados:*%0A`;
         kits.forEach(kit => {
           whatsappMessage += `  • ${kit}%0A`;
         });
       }
 
       if (extras.length > 0) {
-        whatsappMessage += `%0A✨ *Extras Desejados:*%0A`;
+        whatsappMessage += `%0A*Extras Desejados:*%0A`;
         extras.forEach(extra => {
           whatsappMessage += `  • ${extra}%0A`;
         });
       }
 
       if (message) {
-        whatsappMessage += `%0A💭 *Mensagem:*%0A${message}%0A`;
+        whatsappMessage += `%0A*Mensagem:*%0A${message}%0A`;
       }
 
       whatsappMessage += `%0A_Mensagem enviada via site Era da Papelaria_`;
@@ -2132,14 +2132,14 @@
       const eventDate = formData.get('event-date');
 
       // Criar mensagem para WhatsApp
-      let whatsappMessage = `📋 *NOVO PEDIDO - ERA DA PAPELARIA*%0A%0A` +
-        `👤 *Nome:* ${name}%0A` +
-        `📧 *E-mail:* ${email}%0A` +
-        `📱 *WhatsApp:* ${phone}%0A` +
-        `🎉 *Tipo de Evento:* ${style}%0A`;
+      let whatsappMessage = `*NOVO PEDIDO - ERA DA PAPELARIA*%0A%0A` +
+        `*Nome:* ${name}%0A` +
+        `*E-mail:* ${email}%0A` +
+        `*WhatsApp:* ${phone}%0A` +
+        `*Tipo de Evento:* ${style}%0A`;
 
       if (eventDate) {
-        whatsappMessage += `📅 *Data do Evento:* ${eventDate}%0A`;
+        whatsappMessage += `*Data do Evento:* ${eventDate}%0A`;
       }
 
       whatsappMessage += `%0A_Mensagem enviada via site Era da Papelaria_`;
